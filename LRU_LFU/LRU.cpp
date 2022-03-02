@@ -1,5 +1,7 @@
 #include "LRU.h"
 
+using namespace LRU;
+
 void LRUCache::pushFront(Node *cur) {
     auto list_head_next = list_head->next;
     list_head_next->pre = cur;
@@ -32,12 +34,12 @@ void LRUCache::put(int key, int value) {
         Node *cur = new Node(key, value);
         if (hash_map.size() == max_size) {
             auto old_node = list_tail->pre;
-            int old_value = old_node->value;
+            int old_key = old_node->key;
             removeNode(old_node);
             hash_map.erase(old_node->key);
             delete old_node;
             pushFront(cur);
-            printf("Successfully put (%d, %d), replace the key %d \n", key, value, old_value);
+            printf("Successfully put (%d, %d), replace the key %d \n", key, value, old_key);
         }
         else {
             pushFront(cur);

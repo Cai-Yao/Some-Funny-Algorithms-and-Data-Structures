@@ -3,6 +3,8 @@
 
 #include <unordered_map>
 
+namespace LRU {
+
 class Node
 {
 public:
@@ -43,7 +45,7 @@ private:
     void removeNode(Node *node);
 
 };
-
+}
 
 
 #endif
