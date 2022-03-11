@@ -1,16 +1,18 @@
 # Some-Funny-Algorithms-and-Data-Structures
 Some Funny Algorithms and Data Structures
 
-Implemented
+**Implemented**
 
-[SkipList](https://github.com/Cai-Yao/Some-Funny-Algorithms-and-Data-Structures/tree/main/SkipList)
+- [SkipList](https://github.com/Cai-Yao/Some-Funny-Algorithms-and-Data-Structures/tree/main/SkipList)
 
-[LRU](https://github.com/Cai-Yao/Some-Funny-Algorithms-and-Data-Structures/tree/main/LRU_LFU)
+- [LRU](https://github.com/Cai-Yao/Some-Funny-Algorithms-and-Data-Structures/tree/main/LRU_LFU)
 
-Planning
+- [LFU](https://github.com/Cai-Yao/Some-Funny-Algorithms-and-Data-Structures/tree/main/LRU_LFU)
 
-LFU
+- [Bloom Filter](https://github.com/Cai-Yao/Some-Funny-Algorithms-and-Data-Structures/tree/main/Bloom_Fliter)
 
-RB-Tree
+**Planning**
 
-Bloom Filter
+- RB-Tree
+
+
